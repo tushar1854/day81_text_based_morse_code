@@ -33,7 +33,7 @@ def mor_to_string(mor_code):
     return new_str
 
 
-choice = input('What you will write for "morse_code":m or "string":s ')
+choice = input('For "morse_code":m or "string":s ')
 if choice == "m":
     mor_code = (input("Enter the word "))
     print(mor_to_string(mor_code))
